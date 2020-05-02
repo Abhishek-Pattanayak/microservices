@@ -1,4 +1,4 @@
-# Microservices with Spring Boot and Eureka
+# Microservices with Spring Boot and Eureka (with Feign Client)
 This is an example of Spring boot microservices with Eureka and Feign client example.
 
 The eurekaregistryserver acts as the Eureka Registry Server where microservices get registered. Here we have two microservices called userdata and countryclient which talks with each other using feign client by registering themselves on Eureka.
